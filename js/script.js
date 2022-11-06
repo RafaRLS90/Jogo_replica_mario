@@ -10,4 +10,8 @@ const jump = () => {
     }, 500); 
 }
 
+const loop = setInterval(() => {
+    const pipePosition = pipe.offsetLeft;
+}, 10)
+
 document.addEventListener('keydown', jump);
